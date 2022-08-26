@@ -192,7 +192,7 @@ html {
 #slider {
     position: relative;
     margin-top: 46.5px;
-    padding-top: 50%;
+    /* padding-top: 50%; */
     background: url('https://www.w3schools.com/w3images/chicago.jpg') top center /cover no-repeat, url('https://cdn.presslabs.com/wp-content/uploads/2018/10/upload-error.png') top center /cover no-repeat;
 }
 
