@@ -1,0 +1,126 @@
+/* ===========PC=========== */
+/* @media (min-width: 64em) {} */
+
+/* ==========TABLET========== */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #content .section-sub-heading {
+        padding-bottom: 48px;
+    }
+
+    #content .contact-form input {
+        width: 100%;
+        height: 48px;
+    }
+
+    #content .contact-text {
+        font-size: 20px;
+        margin-top: -9px;
+    }
+
+    #content .contact-text li {
+        margin: 8px 0;
+    }
+
+    #content .contact-form .btn-send {
+        width: 100px;
+        height: 48px;
+        text-align: center;
+    }
+
+    #footer .icon-box a {
+        margin: 0 16px;
+        font-size: 34px;
+    }
+
+    #footer p {
+        font-size: 24px;
+        padding-top: 32px;
+    }
+}
+
+
+/* ==========Mobile========== */
+@media (max-width: 739px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: relative;
+        background-color: #333;
+    }
+
+    #nav .subnav li a {
+        color: #fff;
+        padding: 6px 46px;
+    }
+
+    #header #search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 47px;
+    }
+
+    #slider .text-content {
+        display: none;
+    }
+
+    /* .col {
+        float: none;
+    } */
+
+    .col-third {
+        width: 100%;
+        padding: 8px 8px;
+    }
+
+    #content .tour-content button {
+        width: 100%;
+    }
+
+    #content .contact-form .contact-email,
+    #content .contact-form,
+    #content .contact-text {
+        display: inline-block;
+        float: none;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    #content .contact-form .contact-name {
+        display: block;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    #content .contact-text {
+        margin-top: 32px;
+    }
+
+    #content .contact-text li {
+        margin: 8px 0;
+    }
+
+    #content .contact-form .btn-send {
+        width: 100%;
+        height: 50px;
+    }
+}
